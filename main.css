@@ -3042,7 +3042,7 @@ img{
     }
     .contact__guide {
         font-size: 4vw;
-        padding: 25px 0px 14vw;
+        padding: 25px 0px 16vw;
     }
     .contact__guide,
     .contact__form{
@@ -3050,7 +3050,11 @@ img{
     }
     .contact__guide--form {
         width: 99%;
+    }    
+    .contact__form__list {
+        padding: 120px 12px 20px;
     }
+	
     .contact__form__list__item {
         margin-bottom: 20px;
     }
