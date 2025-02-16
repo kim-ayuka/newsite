@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="==要変更==テキストテキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <!-- 要変更 -->
+    <link rel="shortcut icon" href="#"> <!-- タブのアイコン 要変更 -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Noto+Sans+JP:wght@100..900&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <h1 class="header__logo"><a href="index.html" class="header__logo__link">会社名</a></h1>
+
+        <div class="header__sp-menu">
+            <a href="#contact" class="header__sp-menu__contact">お問い合わせ</a>
+
+            <div id="hamburger" class="header__sp-menu__hamburger">
+                <div class="header__sp-menu__hamburger__inner">
+                    <span class="header__sp-menu__hamburger__inner__bar"></span>
+                    <span class="header__sp-menu__hamburger__inner__bar"></span>
+                    <span class="header__sp-menu__hamburger__inner__bar"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__mask"></div>
+
+        <nav class="header__menu">
+            <ul class="header__menu__list">
+                <li class="header__menu__list__item"><a href="#reason" class="header__menu__list__item__link">選ばれる理由</a></li>
+                <li class="header__menu__list__item"><a href="#service" class="header__menu__list__item__link">サービス内容</a></li>
+                <li class="header__menu__list__item"><a href="#project" class="header__menu__list__item__link">実績</a></li>
+                <li class="header__menu__list__item"><a href="#flow" class="header__menu__list__item__link">ご利用の流れ</a></li>
+                <li class="header__menu__list__item"><a href="#faq" class="header__menu__list__item__link">よくある質問</a></li>
+                <li class="header__menu__list__item"><a href="#contact" class="header__menu__list__item__link">お問い合わせ</a></li>
+            </ul>
+
+            <ul class="header__menu__list--sp">
+                <li class="header__menu__list__item--sp"><a href="#" class="header__menu__list__item__link-sp">会社概要</a></li>
+                <li class="header__menu__list__item--sp"><a href="#" class="header__menu__list__item__link-sp">プライバシーポリシー</a></li>
+                <li class="header__menu__list__item--sp"><a href="#" class="header__menu__list__item__link-sp">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main">
+        <div class="tv">
+            <div class="tv__bg"></div>
+
+            <div class="tv__header-wrap"></div>
+
+            <div class="tv__catch--1">
+                <img src="img/top_copy_1.png" alt="こんな高いのお！？">
+            </div>
+            <div class="tv__catch--2">
+                <img src="img/top_copy_2.png" alt="その常識覆します。全ての企業に、新たな選択肢を！">
+            </div>
+            <div class="tv__catch--sp">
+                <img src="img/top_copy_sp.png" alt="こんなに高いのお！？その常識覆します。全ての企業に、新たな選択肢を！業界の反逆者がやってきたぞー！">
+            </div>
+
+            <div class="tv__superman">
+                <img src="img/top_superman.png" alt="業界の反逆者がやってきたぞー！">
+            </div>
+
+            <ul class="tv__button">
+                <li class="tv__button_item"><a href="#" class="tv__button_item_link tv__button_item_link--green shiny">LINEでお問い合わせ</a></li>
+                <li class="tv__button_item"><a href="#contact" class="tv__button_item_link tv__button_item_link--red shiny">フォームからお問い合わせ</a></li>
+            </ul>
+        </div>
+
+        <div class="campaign main-box">
+            <div class="campaign--cloud"></div>
+
+            <div class="campaign--spark container"></div>
+
+            <div class="inner inner--campaign">
+                <p class="campaign__text"><span class="marker">LINE登録をして新規ご契約いただいた方に、</span><br><span  class="campaign__text__red marker">動画制作2本無料プレゼント</span></p>
+                <p class="campaign__note">	キャンペーンの動画制作はショート動画になります。<br>通常の動画制作やYouTube動画、デザインなどは費用からその分を割引いたします。</p>
+            </div>
+
+            <div class="inner inner--campaign--shadow"></div>
+
+            <div class="campaign__speech-bubble"><img src="img/campaign_speech-bubble.png" alt="毎月ご新規様5社限定"></div>
+
+            <div class="campaign__button"><a href="#" class="campaign__button__link shiny">お申し込みはこちら<span class="campaign__button__link__arrow"></span></a></div>
+        </div>
+
+        <div class="target">
+            <div class="target__heading">
+                <p class="target__heading__text target__heading__text--big">1つでも当てはまったら<br>ページを閉じてOK&nbsp;&#33;</p>
+                <p class="target__heading__text target__heading__text--small">&#8251;このページは、以下の方のためのものではありません</p>
+            </div>
+
+            <div class="main-box main-box--target">
+                <div class="target__superwoman">
+                    <img src="img/target_superwoman.png" alt="スーパーウーマン">
+                </div>
+
+                <!-- <div class="container container--target"> -->
+                    <ul class="target__list">
+                        <li class="target__list__item">現状を変えようと<br>思っていない</li>
+                        <li class="target__list__item">月の利益が<br>３万円以上出ていない</li>
+                        <li class="target__list__item">コンサルや外注に頼めば、<br>結果が出ると思っている</li>
+                        <li class="target__list__item">ビジネスで<span class="target__list__item__red">Web</span>や<span class="target__list__item__red">YouTube</span>、<br><span class="target__list__item__red">SNS</span>は必要ないと思う</li>
+                    </ul>
+                <!-- </div> -->
+
+                <div class="target__guide">
+                    <p class="target__guide__text" txt="すべて該当しなかった方は、">
+                        すべて該当しなかった方は、
+                        <span class="target__guide__text__big" data-txt="続きを読む価値があります !">
+                            <span class="target__guide__text__dots">続きを読む価値</span>があります&nbsp;&#33;
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-box">
+            <section class="concept section section--dots">
+                <h2 class="section__heading section__heading--spark">CONCEPT</h2>
+
+                <div class="inner inner--concept">
+                    <p class="concept__big-text">「大手<span class="concept__big-text__small">では</span>高額<span class="concept__big-text__small">すぎて</span>諦めてきた&hellip;」</p>
+
+                    <p class="concept__small-text">そんな声を何度も耳にしきた。</p>
+                    
+                    <p class="concept__small-text">WebやYouTube、SNSを活用したい、
+                        <br>だけど手を出せずにいる&hellip;</p>
+
+                    <p class="concept__small-text">&mdash;&mdash;選択肢に入れることができない</p>
+
+                    <p class="concept__big-text">その常識、私たちが覆します&nbsp;&#33;&nbsp;&#33;</p>
+
+                    <p class="concept__small-text">予算の心配をする必要も、<br class="concept__small-text__sp">クオリティを妥協する必要もない。
+                        <br>すべての企業に、Web広告やSNS運用を<br class="concept__small-text__sp">活用するための新たな選択肢を。</p>
+
+                    <p class="concept__big-text">「手が届かない<span class="concept__big-text__small">から</span>諦める」
+                        <br><span class="concept__big-text__small concept__big-text__indent">という</span>選択肢<span class="concept__big-text__small">を、ここから</span>無くそう。</p>
+                </div>
+            </section>
+
+
+            <section class="miss section section--dots">
+                <hgroup class="miss__heading">
+                    <p class="section__heading--sub">とはいえ、色々ありました&hellip;</p>
+                    <h2 class="section__heading section__heading--miss"><span class="section__heading--miss--pattern">弊社の失敗</span>とその理由</h2>
+                </hgroup>
+
+                <div class="miss__content">
+                    <img src="img/miss_contents.png" alt="音声とれてなくて再撮影しました。
+                    OMG!納期に間に合わない:格安でやるために、人件費削り過ぎてます。/投稿まだ？:クリエイター気質で、クオリティを求めるあまり、完成が遅れてしまいました。
+                    /NO!ビジネスマン？:子育て中のママさんや、若手まで多様なメンバーが在籍。限られた時間の中で業務に全力を尽くしています。
+                    /OH!テスト配信のつもりが、まさかの一斉送信:ガチの現場主義教育で実践しつつ学ぶ、発展途上の組織です。" class="miss__content__img miss__content__img--pc">
+                    <img src="img/miss_contents_sp.png" alt="音声とれてなくて再撮影しました。
+                    OMG!納期に間に合わない:格安でやるために、人件費削り過ぎてます。/投稿まだ？:クリエイター気質で、クオリティを求めるあまり、完成が遅れてしまいました。
+                    /NO!ビジネスマン？:子育て中のママさんや、若手まで多様なメンバーが在籍。限られた時間の中で業務に全力を尽くしています。
+                    /OH!テスト配信のつもりが、まさかの一斉送信:ガチの現場主義教育で実践しつつ学ぶ、発展途上の組織です。" class="miss__content__img miss__content__img--sp">
+                </div>
+            </section>
+
+            <section id="reason" class="reason section">
+                <h3 class="reason__heading"><span class="reason__heading__small">それでも弊社が</span><br>選ばれている<span class="reason__heading__red">４つ</span>の理由</h3>
+
+                <dl class="reason__list container">
+                    <div class="reason__list__item">
+                        <dt class="reason__list__item__title">格<br><span  class="reason__list__item__title__indent"></span>安</dt>
+                        <dd class="reason__list__item__data"><mark class="reason__list__item__data__highlight">少人数のチーム</mark>で効率的に業務を進める体制を整えることで、<span class="reason__list__item__data__highlight">人件費を抑え、無駄なコストを削減</span>しています。</dd>
+                        <dd class="reason__list__item__data">経験豊富なディレクターが直接対応するため、余計な中間コストをかけることなく、リーズナブルな価格で提供できています。</dd>
+                    </div>
+
+                    <div class="reason__list__item">
+                        <dt class="reason__list__item__title">柔軟な<br><span class="reason__list__item__title__indent"></span>対応</dt>
+                        <dd class="reason__list__item__data">私たちには、決まりきったパッケージプランのようなものはありません。<mark class="reason__list__item__data__highlight">お客様一人ひとりの課題や目的に合わせた柔軟な提案</mark>をいたします。</dd>
+                        <dd class="reason__list__item__data">ご予算やご要望に応じて、最適なプランをオーダーメイドで作り、他にはない解決策を一緒に作り上げます。</dd>
+                    </div>
+
+                    <div class="reason__list__item">
+                        <dt class="reason__list__item__title">高<br><span  class="reason__list__item__title__indent"></span>品<br><span  class="reason__list__item__title__indent"></span>質</dt>
+                        <dd class="reason__list__item__data"><mark class="reason__list__item__data__highlight">テレビ業界で経験を積んだクリエイターなど、各分野の専門家で構成</mark>されています。</dd>
+                        <dd class="reason__list__item__data">映像制作やデザイン等、実際の現場で培ったプロのスキルで、<mark class="reason__list__item__data__highlight">「細部にまで妥協しない高品質」</mark>を、リーズナブルな価格でお届けします。</dd>
+                    </div>
+
+                    <div class="reason__list__item">
+                        <dt class="reason__list__item__title">早い<br><span  class="reason__list__item__title__indent"></span>納品</dt>
+                        <dd class="reason__list__item__data"><mark class="reason__list__item__data__highlight">短期間で成果物をお届け</mark>する体制を整えています。</dd>
+                        <dd class="reason__list__item__data">素早い納期を追求し過ぎたゆえの失敗エピソードもありましたが、その度に多くの学びを得て、<mark class="reason__list__item__data__highlight">スピードとクオリティを両立</mark>させた仕組みを構築しました。</dd>
+                    </div>
+                </dl>
+            </section>
+
+            <section id="service" class="service section section--dots">
+                <hgroup class="service__heading">
+                    <h2 class="section__heading section__heading--small">サービス内容</h2>
+                    <p class="section__heading--sub service__heading__sub service__heading__sub--pc">マウスカーソルを合わせると詳細が表示されます&nbsp;&#33;</p>
+                    <p class="section__heading--sub service__heading__sub service__heading__sub--sp">マウスカーソルを合わせるか、<br>クリックすると詳細が表示されます&nbsp;&#33;</p>
+                </hgroup>
+
+                <ul class="container service__list">
+                    <div class="service__list__item">
+                        <dt class="service__list__item__title">YouTube運用</dt>
+                        <dd class="service__list__item__imgbox"><img src="img/service_1.png" alt="ユーチューブのアイコン"></dd>
+
+                        <dd class="service__list__item__card">
+                            <ul class="service__list__item__card__list">
+                                <li class="service__list__item__card__list__item">YouTubeチャンネルの成長支援をトータルサポート</li>
+                                <li class="service__list__item__card__list__item">企画立案</li>
+                                <li class="service__list__item__card__list__item">撮影、編集、投稿</li>
+                                <li class="service__list__item__card__list__item">データ分析、改善提案</li>
+                            </ul>
+
+                            <div class="service__list__item__card__detail">
+                                <p class="service__list__item__card__detail__price"><span>月額</span>&#165;50,000&#65374;</p>
+                                <p class="service__list__item__card__detail__note">&#8251;詳細はお問い合わせください&nbsp;&#33;</p>
+                            </div>
+                        </dd>
+                    </div>
+
+                    <div class="service__list__item">
+                        <dt class="service__list__item__title">SNS運用<br><span class="service__list__item__title__small">&#40;Instagram&#47;TikTok&#41;</span></dt>
+                        <dd class="service__list__item__imgbox"><img src="img/service_2.png" alt="インスタグラムとティックトックのアイコン"></dd>
+                        <dd class="service__list__item__card">
+                            <ul class="service__list__item__card__list">
+                                <li class="service__list__item__card__list__item">SNSアカウントの成長支援をトータルサポート</li>
+                                <li class="service__list__item__card__list__item">コンセプト、企画の立案</li>
+                                <li class="service__list__item__card__list__item">リール制作、投稿、DM代行</li>
+                                <li class="service__list__item__card__list__item">エンゲージメント強化、改善提案</li>
+                            </ul>
+
+                            <div class="service__list__item__card__detail">
+                                <p class="service__list__item__card__detail__price"><span>費用</span>&#165;50,000&#65374;</p>
+                                <p class="service__list__item__card__detail__note">&#8251;詳細はお問い合わせください&nbsp;&#33;</p>
+                            </div>
+                        </dd>
+                    </div>
+
+                    <div class="service__list__item">
+                        <dt class="service__list__item__title">WEB&#47;SNS広告</dt>
+                        <dd class="service__list__item__imgbox"><img src="img/service_3.png" alt="ノートパソコンのアイコン"></dd>
+
+                        <dd class="service__list__item__card">
+                            <ul class="service__list__item__card__list">
+                                <li class="service__list__item__card__list__item">クリエイティブ制作</li>
+                                <li class="service__list__item__card__list__item">LP制作</li>
+                                <li class="service__list__item__card__list__item">ABテスト運用</li>
+                            </ul>
+
+                            <div class="service__list__item__card__detail">
+                                <p class="service__list__item__card__detail__note">&#8251;詳細はお問い合わせください&nbsp;&#33;</p>
+                            </div>
+                        </dd>
+                    </div>
+
+                    <div class="service__list__item">
+                        <dt class="service__list__item__title">HP&#47;LP制作</dt>
+                        <dd class="service__list__item__imgbox"><img src="img/service_4.png" alt="URLやネットワークを表現した球体とワードプレスのアイコン"></dd>
+
+                        <dd class="service__list__item__card">                        
+                            <ul class="service__list__item__card__list">
+                                <li class="service__list__item__card__list__item">要件定義、サイト設計</li>
+                                <li class="service__list__item__card__list__item">ホームページ保守、運用</li>
+                                <li class="service__list__item__card__list__item">CMS（WordPress等）導入</li>
+                                <li class="service__list__item__card__list__item">ノーコード制作</li>
+                            </ul>
+
+                            <div class="service__list__item__card__detail">
+                                <p class="service__list__item__card__detail__price"><span>費用</span>&#165;30,000&#65374;</p>
+                                <p class="service__list__item__card__detail__note">&#8251;詳細はお問い合わせください&nbsp;&#33;</p>
+                            </div>
+                        </dd>
+                    </div>
+
+                    <div class="service__list__item">
+                        <dt class="service__list__item__title">システム開発</dt>
+                        <dd class="service__list__item__imgbox"><img src="img/service_5.png" alt="コードと設定マークの歯車のアイコン"></dd>
+                        <dd class="service__list__item__card">
+                            <ul class="service__list__item__card__list">
+                                <li class="service__list__item__card__list__item">Webシステム開発</li>
+                                <li class="service__list__item__card__list__item">予約システム開発</li>
+                                <li class="service__list__item__card__list__item">業務改善システム開発</li>
+                                <li class="service__list__item__card__list__item">アプリ開発</li>
+                            </ul>
+
+                            <div class="service__list__item__card__detail">
+                                <p class="service__list__item__card__detail__note">&#8251;詳細はお問い合わせください&nbsp;&#33;</p>
+                            </div>
+                        </dd>
+                    </div>
+
+                    <div class="service__list__item">
+                        <dt class="service__list__item__title">デザイン制作</dt>
+                        <dd class="service__list__item__imgbox"><img src="img/service_6.png" alt="カラーパレットとペンのアイコン"></dd>
+                        <dd class="service__list__item__card">
+                            <ul class="service__list__item__card__list">
+                                <li class="service__list__item__card__list__item">Webデザイン制作</li>
+                                <li class="service__list__item__card__list__item">バナー制作</li>
+                                <li class="service__list__item__card__list__item">ポスター、チラシ制作</li>
+                                <li class="service__list__item__card__list__item">看板、POP制作</li>
+                                <li class="service__list__item__card__list__item">名刺制作</li>
+                            </ul>
+
+                            <div class="service__list__item__card__detail">
+                                <p class="service__list__item__card__detail__price"><span>費用</span>&#165;5,000&#65374;</p>
+                                <p class="service__list__item__card__detail__note">&#8251;詳細はお問い合わせください&nbsp;&#33;</p>
+                            </div>
+                        </dd>
+                    </div>
+
+                    <div class="service__list__item">
+                        <dt class="service__list__item__title">映像制作&#47;動画編集</dt>
+                        <dd class="service__list__item__imgbox"><img src="img/service_7.png" alt="ゴープロとフィルムと再生ボタンのアイコン"></dd>
+                        <dd class="service__list__item__card">
+                            <ul class="service__list__item__card__list">
+                                <li class="service__list__item__card__list__item">PR動画</li>
+                                <li class="service__list__item__card__list__item">採用動画</li>
+                                <li class="service__list__item__card__list__item">社内研修動画</li>
+                                <li class="service__list__item__card__list__item">マニュアル動画</li>
+                                <li class="service__list__item__card__list__item">YouTube、ショート動画</li>
+                            </ul>
+
+                            <div class="service__list__item__card__detail">
+                                <p class="service__list__item__card__detail__price"><span>費用</span>&#165;9,800&#65374;</p>
+                                <p class="service__list__item__card__detail__note">&#8251;詳細はお問い合わせください&nbsp;&#33;</p>
+                            </div>
+                        </dd>
+                    </div>
+
+                    <div class="service__list__item">
+                        <dt class="service__list__item__title">社内AI活用の<br>内製化研修</dt>
+                        <dd class="service__list__item__imgbox"><img src="img/service_8.png" alt="ロボットのアイコン"></dd>
+                        <dd class="service__list__item__card">
+                            <ul class="service__list__item__card__list">
+                                <li class="service__list__item__card__list__item">国が行う助成金を活用して研修を行います。</li>
+                                <li class="service__list__item__card__list__item">AI活用を浸透させたい企業様</li>
+                                <li class="service__list__item__card__list__item">補助金や助成金について知りたい企業様</li>
+                            </ul>
+
+                            <div class="service__list__item__card__detail">
+                                <p class="service__list__item__card__detail__price"><span>費用</span>&#165;9,800&#65374;</p>
+                                <p class="service__list__item__card__detail__note">&#8251;詳細はお問い合わせください&nbsp;&#33;</p>
+                            </div>
+                        </dd>
+                    </div>
+                </ul>
+            </section>
+
+            <section id="project" class="project section section--dots">
+                <h2 class="section__heading section__heading--small section__heading--spark">プロジェクト実績</h2>
+
+                <ul class="project__list">
+                    <li class="project__list__item">
+                        <p class="project__list__item__name">株式会社ABC美容室グループ&#40;仮名&#41;</p>
+
+                        <dl class="project__list__item__content">
+                            <dt class="project__list__item__content__title">
+                                <p class="project__list__item__content__title__text">SNSでショート動画を投稿<br>たった4ヶ月で100リスト<br>獲得</p>
+                            </dt>
+                            <dd class="project__list__item__content__lead">
+                                <p>以前は求人の応募が伸び悩んでいましたが、SNSを使った戦略的な運用により、美容学生や求職者に認知されるようになりました。応募者の質も向上し、採用活動がスムーズに進むようになりました&#33;</p>
+                            </dd>
+                        </dl>
+                    </li>
+
+                    <li class="project__list__item">
+                        <p class="project__list__item__name">スマイルパートナーズ不動産株式会社&#40;仮名&#41;</p>
+
+                        <dl class="project__list__item__content">
+                            <dt class="project__list__item__content__title">
+                                <p class="project__list__item__content__title__text">YouTube活用により<br>問い合わせが150%へ増加</p>
+                            </dt>
+                            <dd class="project__list__item__content__lead">
+                                <p>YouTubeでコンテンツを配信するのは初めてでしたが、予想以上に反響があり驚きました。特に副次的な効果も大きく、YouTubeのコンテンツを活用したことでサイトや広告のCPAが2割以上下がったことにより、会社全体としての集客機能が向上しました。</p>
+                            </dd>
+                        </dl>
+                    </li>
+
+                    <li class="project__list__item">
+                        <p class="project__list__item__name">株式会社ケーエスクリニック&#40;仮名&#41;</p>
+
+                        <dl class="project__list__item__content">
+                            <dt class="project__list__item__content__title">
+                                <p class="project__list__item__content__title__text">LINEで見込み顧客への<br>後追いメッセージ配信で<br>成約率が40%向上</p>
+                            </dt>
+                            <dd class="project__list__item__content__lead">
+                                <p>公式LINEアカウントとシステムを導入し、構築をお願いしました。今までは、ある程度母集団形成はできていましたが成約率が低かったことに課題を感じていました。しかし成約しやすいライティングや動画の制作、導線設計を緻密に作り上げていただいたことで、既存顧客に対してセグメントをわけた接点を確保することができ売上30%UPを実現することができました。</p>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <section id="flow" class="flow">
+            <div class="main-box">
+                <div class="section section-flow">
+                    <h2 class="section__heading--small section__heading--center">ご利用の流れ</h2>
+                    
+                    <dl class="flow__list container">
+                        <div class="flow__list__item">
+                            <dt class="flow__list__item__title">お問い合わせ</dt>
+                            <dd class="flow__list__item__lead">まずはフォームまたはLINEからお問い合わせください。</dd>
+                        </div>
+
+                        <div class="flow__list__item">
+                            <dt class="flow__list__item__title">ヒアリング</dt>
+                            <dd class="flow__list__item__lead">担当ディレクターとのWEB面談を行います。</dd>
+                            <dd class="flow__list__item__lead">事業内容や課題をヒアリングし、具体的なゴールを共有をします。</dd>
+                        </div>
+
+                        <div class="flow__list__item">
+                            <dt class="flow__list__item__title">プランご提供</dt>
+                            <dd class="flow__list__item__lead">お客様の目的や課題に合ったプランを作成。</dd>
+                            <dd class="flow__list__item__lead">1週間以内にお見積もりと提案書をご提供いたします。</dd>
+                        </div>
+
+                        <div class="flow__list__item">
+                            <dt class="flow__list__item__title">ご契約</dt>
+                            <dd class="flow__list__item__lead">プランやお見積もり内容をご確認いただき、運用方針が固まり次第、ご契約となります。</dd>
+                        </div>
+
+                        <div class="flow__list__item">
+                            <dt class="flow__list__item__title">利用開始</dt>
+                            <dd class="flow__list__item__lead">ご契約内容に基づき、各プロジェクトを進行し、丁寧にサポートしていきます。</dd>
+                        </div>
+                    </dl>
+
+                    <p class="flow__message"><span>「SNSやWEBサービスをビジネスに活用したいが、何が良いか分からない」</span><br><span>「とりあえず概算のお見積りを見たい」など、ざっくりした内容でもお気軽にご相談ください。</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq">
+            <div class="main-box">
+                <div class="section">
+                    <h2 class="section__heading--small section__heading--center">よくあるご質問</h2>
+                    
+                    <ul class="faq__list inner">
+                        <li class="faq__list__item">
+                            <div class="faq__list__item__contents">
+                                <p class="faq__list__item__contents__icon">Q</p>
+                                <p class="faq__list__item__contents__text">ミスをしたときに返金対応はありますか&nbsp;&#63;</p>
+                                <div class="faq__list__item__contents__cross"><span class="faq__list__item__contents__cross__item"></span><span class="faq__list__item__contents__cross__item"></span></div>
+                            </div>
+
+                            <div class="answer">
+                                <div class="faq__list__item__contents faq__list__item__contents--a">
+                                    <p class="faq__list__item__contents__icon faq__list__item__contents__icon--a">A</p>
+                                    <p class="faq__list__item__contents__text faq__list__item__contents__text--a">ミスをした事例はこのページの弊社の失敗とその理由をご覧ください。<br>納期遅れ、投稿の遅れなどが発生してしまったことがございます。<br>しかし、納品できなかったことや投稿をしなかったことはないため基本的に返金対応はしておりません。
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="faq__list__item">
+                            <div class="faq__list__item__contents">
+                                <p class="faq__list__item__contents__icon">Q</p>
+                                <p class="faq__list__item__contents__text">契約期間の縛りはありますか&nbsp;&#63;</p>
+                                <div class="faq__list__item__contents__cross"><span class="faq__list__item__contents__cross__item"></span><span class="faq__list__item__contents__cross__item"></span></div>
+                            </div>
+
+                            <div class="answer">
+                                <div class="faq__list__item__contents faq__list__item__contents--a">
+                                    <p class="faq__list__item__contents__icon faq__list__item__contents__icon--a">A</p>
+                                    <p class="faq__list__item__contents__text faq__list__item__contents__text--a">基本的には１ヶ月毎の契約となります。<br>しかし、１年単位での契約がほとんどで、６ヶ月以上の契約をオススメしています。</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="faq__list__item">
+                            <div class="faq__list__item__contents">
+                                <p class="faq__list__item__contents__icon">Q</p>
+                                <p class="faq__list__item__contents__text">料金はどちらに記載されていますか&nbsp;&#63;</p>
+                                <div class="faq__list__item__contents__cross"><span class="faq__list__item__contents__cross__item"></span><span class="faq__list__item__contents__cross__item"></span></div>
+                            </div>
+
+                            <div class="answer">
+                                <div class="faq__list__item__contents faq__list__item__contents--a">
+                                    <p class="faq__list__item__contents__icon faq__list__item__contents__icon--a">A</p>
+                                    <p class="faq__list__item__contents__text faq__list__item__contents__text--a">サービス内容に、料金と内容を記載しておりますので、そちらをご覧ください。</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="faq__list__item">
+                            <div class="faq__list__item__contents">
+                                <p class="faq__list__item__contents__icon">Q</p>
+                                <p class="faq__list__item__contents__text">追加料金が発生することはありますか&nbsp;&#63;</p>
+                                <div class="faq__list__item__contents__cross"><span class="faq__list__item__contents__cross__item"></span><span class="faq__list__item__contents__cross__item"></span></div>
+                            </div>
+
+                            <div class="answer">
+                                <div class="faq__list__item__contents faq__list__item__contents--a">
+                                    <p class="faq__list__item__contents__icon faq__list__item__contents__icon--a">A</p>
+                                    <p class="faq__list__item__contents__text faq__list__item__contents__text--a">基本的には発生いたしません。<br>貴社にて撮影の際に場所の指定などがある場合、別途交通費などの実費を請求させていただく場合がございます。</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="faq__list__item">
+                            <div class="faq__list__item__contents">
+                                <p class="faq__list__item__contents__icon">Q</p>
+                                <p class="faq__list__item__contents__text">依頼から運用開始までどのくらいの期間がかかりますか&nbsp;&#63;</p>
+                                <div class="faq__list__item__contents__cross"><span class="faq__list__item__contents__cross__item"></span><span class="faq__list__item__contents__cross__item"></span></div>
+                            </div>
+
+                            <div class="answer">
+                                <div class="faq__list__item__contents faq__list__item__contents--a">
+                                    <p class="faq__list__item__contents__icon faq__list__item__contents__icon--a">A</p>
+                                    <p class="faq__list__item__contents__text faq__list__item__contents__text--a">運用開始から1カ月前にはご依頼いただけますと余裕を持ったスケジュールで実施が可能です。<br>お急ぎの場合は今すぐご相談下さい。</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="campaign main-box">
+            <div class="campaign--cloud"></div>
+
+            <div class="campaign--spark container"></div>
+
+            <div class="inner inner--campaign">
+                <p class="campaign__text"><span class="marker">LINE登録をして新規ご契約いただいた方に、</span><br><span  class="campaign__text__red marker">動画制作2本無料プレゼント</span></p>
+                <p class="campaign__note">	キャンペーンの動画制作はショート動画になります。<br>通常の動画制作やYouTube動画、デザインなどは費用からその分を割引いたします。</p>
+            </div>
+
+            <div class="inner inner--campaign--shadow"></div>
+
+            <div class="campaign__speech-bubble"><img src="img/campaign_speech-bubble.png" alt="毎月ご新規様5社限定"></div>
+
+            <div class="campaign__button"><a href="#" class="campaign__button__link shiny">お申し込みはこちら<span class="campaign__button__link__arrow"></span></a></div>
+
+        </div>
+
+        <div id="contact" class="contact">
+            <a href="#" class="contact__guide contact__guide--line"><span class="contact__guide__big">LINE</span>での<br>お問い合わせはこちらから&nbsp;&#33;</a>
+
+            <form class="contact__form">
+                <a class="contact__guide contact__guide--form"><span class="contact__guide__big">フォーム</span>での<br>お問い合わせはこちらから&nbsp;&#33;</a>
+
+                <dl class="contact__form__list">
+                    <div class="contact__form__list__item">
+                        <dt class="contact__form__list__item__title"><label for="company">企業名</label></dt>
+                        <dd class="contact__form__list__item__data"><input type="text" id="company" name="company"></dd>
+                    </div>
+                    <div class="contact__form__list__item">
+                        <dt class="contact__form__list__item__title"><label for="name">お名前</label></dt>
+                        <dd class="contact__form__list__item__data"><input type="text" id="name" name="name"></dd>
+                    </div>
+                    <div class="contact__form__list__item">
+                        <dt class="contact__form__list__item__title"><label for="mail">メールアドレス</label></dt>
+                        <dd class="contact__form__list__item__data"><input type="email" id="mail" name="email"></dd>
+                    </div>
+                    <div class="contact__form__list__item">
+                        <dt class="contact__form__list__item__title"><label for="massage">お問い合わせ内容</label></dt>
+                        <dd class="contact__form__list__item__data"><textarea id="massage" name="massage"></textarea></dd>
+                    </div>
+                </dl>
+
+                <div class="contact__form__button"><input type="submit" value="送信"></div>
+            </form>
+        </div>
+    </main> 
+
+    <div id="side-menu" class="side-menu">
+        <ul class="side-menu__list">
+            <li class="side-menu__list__item"><a href="#" class="side-menu__list__item__link"><span class="side-menu__list__item__link--line">LINE</span>で相談する&#33;</a></li>
+            <li class="side-menu__list__item"><a href="#contact" class="side-menu__list__item__link"><span class="side-menu__list__item__link--form">お問い合わせ</span>ページへいく</a></li>
+        </ul>
+    </div>
+
+    <div id="to-top" class="to-top">
+        <span></span>
+        <span></span>
+    </div>
+
+    <div id="overview" class="overview">
+        <div class="overview__wrap">
+            <a href="#" class="overview__wrap__bnr"><img src="img/banner_800x1130_250126_B.jpg" alt="LINE登録プレゼントキャンペーン。毎月ご新規様5社限定。公式LINEお友だち登録で、動画制作2本無料"></a>
+            <span id="close" class="overview__wrap__close"></span>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="inner">
+            <p class="footer__name">会社名テキスト</p>
+
+            <div class="footer__inner">
+                <nav  class="footer__inner__menu">
+                    <ul  class="footer__inner__menu__list">
+                        <li  class="footer__inner__menu__list__item"><a href="#" class="footer__inner__menu__list__item__link">プライバシーポリシー</a></li>
+                        <li  class="footer__inner__menu__list__item"><a href="#" class="footer__inner__menu__list__item__link">会社概要</a></li>
+                        <li  class="footer__inner__menu__list__item"><a href="#contact" class="footer__inner__menu__list__item__link">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer__inner__copyright">
+                    <p class="footer__inner__copyright__text">&copy;&nbsp;コピーライト.</p>
+                    <p class="footer__innerr__copyright__credit">Icons by <a href="https://icons8.jp/">Icons8</a></p>
+                </div>
+            </div>
+
+        </div>            
+    </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
