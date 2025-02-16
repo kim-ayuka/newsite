@@ -1525,7 +1525,7 @@ img{
 }
 .section__heading--miss--pattern{
     font-size: 3.9rem;
-    background: url(/miss_heading_bg.png);
+    background: url(miss_heading_bg.png);
     background-size: cover;
     background-clip: text;
     color: transparent;
