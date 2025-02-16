@@ -3064,6 +3064,7 @@ img{
     }
     .contact__form__list__item__title {
         padding: 8px 10px 8px 5px;
+	    font-size: .8rem;
     }
     .contact__form__button {
         padding: 20px 115px 40px 75px;
