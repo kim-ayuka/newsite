@@ -2706,6 +2706,9 @@ img{
     }
 }
 @media screen and (max-width : 540px) {
+    .section-flow {
+        padding-top: 140px;
+    }
     .flow__list {
         padding: 0;
     }
