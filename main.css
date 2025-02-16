@@ -53,7 +53,7 @@ img{
 .section--dots::after{
     position: absolute;
     content: "";
-    background-image: url(/img/all_dots-bg.png);
+    background-image: url(/all_dots-bg.png);
     background-repeat: repeat;
     background-size: 100%;
     width: 100%;
@@ -97,7 +97,7 @@ img{
 .section__heading--spark::before{
     position: absolute;
     content: "";
-    background-image: url(/img/all_spark.png);
+    background-image: url(/all_spark.png);
     background-size: contain;
     width: clamp(230px, 50%, 340px);
     aspect-ratio: 319 / 268;
@@ -436,7 +436,7 @@ img{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(/img/top_bg.png);
+    background-image: url(/top_bg.png);
     background-size: cover;
     z-index: -1;
 }
@@ -445,7 +445,7 @@ img{
     width: 100%;
     top: 24px;
     left: 0;
-    background-image: url(/img/header_box.png);
+    background-image: url(/header_box.png);
     background-size: 100% 100%;
     height: 200px;
 }
@@ -515,7 +515,7 @@ img{
 .tv__button_item:last-child::after{
     position: absolute;
     content: "";
-    background-image: url(/img/all_dots_shadow_small.png);
+    background-image: url(/all_dots_shadow_small.png);
     background-size: 100%;
     width: 100%;
     height: 100%;
@@ -605,7 +605,7 @@ img{
         aspect-ratio: 402 / 803;
     }
     .tv__bg{
-        background-image: url(/img/top_bg_sp.png);
+        background-image: url(/top_bg_sp.png);
     }
     .tv__catch--1,
     .tv__catch--2,
@@ -658,7 +658,7 @@ img{
     transform: translate( -50% , -50%); 
 }
 .campaign--cloud{
-    background-image: url(/img/reason_cloud.png);
+    background-image: url(/reason_cloud.png);
     height: 150%;
     background-position: 50%;
     max-width: 1794px;
@@ -671,7 +671,7 @@ img{
     z-index: -2;
 }
 .campaign--spark{
-    background-image: url(/img/campaign_spark.png);
+    background-image: url(/campaign_spark.png);
     aspect-ratio: 1204 / 406;
     z-index: -3;
 }
@@ -795,7 +795,7 @@ img{
 .campaign__button__link::after{
     position: absolute;
     content: "";
-    background-image: url(/img/all_dots_shadow_small.png);
+    background-image: url(/all_dots_shadow_small.png);
     background-size: 100%;
     background-position: right;
     width: 100%;
@@ -948,7 +948,7 @@ img{
 
 .target{
     background-color: #813D91;
-    background-image: url(/img/target_bg.png);
+    background-image: url(/target_bg.png);
     background-repeat: no-repeat;
     border-bottom: #000 solid 5px;
     overflow: hidden;
@@ -1001,7 +1001,7 @@ img{
     width: 100%;
     height: 100%;
     position: relative;
-    background-image: url(/img/target_speech-bubble.png);
+    background-image: url(/target_speech-bubble.png);
     background-position: top right;
     background-repeat: no-repeat;
     max-width: 1080px;
@@ -1017,25 +1017,25 @@ img{
     z-index: 2;
 }
 .target__list__item:first-child{
-    background-image: url(/img/target_1.png);
+    background-image: url(/target_1.png);
     top: 0;
     right: 540px;
     padding: 65px 180px 120px 120px;
 }
 .target__list__item:nth-child(2){
-    background-image: url(/img/target_2.png);
+    background-image: url(/target_2.png);
     top: 160px;
     right: -70px;
     padding: 80px 70px 110px 110px;
 }
 .target__list__item:nth-child(3){
-    background-image: url(/img/target_3.png);
+    background-image: url(/target_3.png);
     top: 250px;
     right: 380px;
     padding: 70px 110px 100px 60px;
 }
 .target__list__item:last-child{
-    background-image: url(/img/target_4.png);
+    background-image: url(/target_4.png);
     font-size: 1.8rem;
     font-weight: 800;
     top: 45px;
@@ -1062,7 +1062,7 @@ img{
 .target__guide::after{
     position: absolute;
     content: "";
-    background-image: url(/img/target_guide.png);
+    background-image: url(/target_guide.png);
     background-size: 100% 100%;
     width: 97%;
     height: 100%;
@@ -1242,7 +1242,7 @@ img{
         transform: translateX(-58%);
     }
     .target__guide::after{
-        background-image: url(/img/target_guide_sp.png);
+        background-image: url(/target_guide_sp.png);
         width: 105%;
         left: 10%;
         height: 125%;
@@ -1437,7 +1437,7 @@ img{
     margin-top: 60px;
 }
 .inner--concept{
-    background-image: url(/img/concept_bg.jpg);
+    background-image: url(/concept_bg.jpg);
     background-size: cover;
     background-position: center;
     border: #000 5px solid;
@@ -1525,7 +1525,7 @@ img{
 }
 .section__heading--miss--pattern{
     font-size: 3.9rem;
-    background: url(/img/miss_heading_bg.png);
+    background: url(/miss_heading_bg.png);
     background-size: cover;
     background-clip: text;
     color: transparent;
@@ -1633,7 +1633,7 @@ img{
 .reason::before{
     position: absolute;
     content: "";
-    background-image: url(/img/reason_cloud.png);
+    background-image: url(/reason_cloud.png);
     background-position: 50%;
     max-width: 1794px;
     width: 100vw;
@@ -1677,7 +1677,7 @@ img{
 .reason__list::before{
     position: absolute;
     content: "";
-    background-image: url(/img/reason_cloud.png);
+    background-image: url(/reason_cloud.png);
     background-position: top center;
     background-size: 130% 190%;
     max-width: none;
@@ -2232,7 +2232,7 @@ img{
     position: absolute;
     right: 0;
     bottom: 100%;
-    background-image: url(/img/project.png);
+    background-image: url(/project.png);
     background-size: contain;
 }
 
@@ -2418,22 +2418,22 @@ img{
     z-index: -1;
 }
 .flow__list__item:first-child::before{
-    background-image: url(/img/flow_1.png);
+    background-image: url(/flow_1.png);
 }
 .flow__list__item:nth-child(2)::before{
-    background-image: url(/img/flow_2.png);
+    background-image: url(/flow_2.png);
 
 }
 .flow__list__item:nth-child(3)::before{
-    background-image: url(/img/flow_3.png);
+    background-image: url(/flow_3.png);
 
 }
 .flow__list__item:nth-child(4)::before{
-    background-image: url(/img/flow_4.png);
+    background-image: url(/flow_4.png);
 
 }
 .flow__list__item:last-child::before{
-    background-image: url(/img/flow_5.png);
+    background-image: url(/flow_5.png);
 }
 .flow__list__item::after{
     position: absolute;
@@ -2910,7 +2910,7 @@ img{
 
 .contact{
     padding: 100px 0;
-    background-image: url(/img/all_dots-bottom.png);
+    background-image: url(/all_dots-bottom.png);
     background-repeat: repeat-x;
     background-position: bottom;
     text-align: center;
@@ -2919,7 +2919,7 @@ img{
     width: calc(100% - 60px);
     max-width: 650px;
     display: inline-block;
-    background-image: url(/img/contact_line.png);
+    background-image: url(/contact_line.png);
     background-size: 100% 100%;
     color: #fff;
     padding: 25px 0 85px;
@@ -2939,7 +2939,7 @@ img{
     width: calc(100% - 60px);
     max-width: 650px;
     margin: 0 auto;
-    background-image: url(/img/contact_bg.png);
+    background-image: url(/contact_bg.png);
     background-size: cover;
     background-position: bottom center;
     outline: #000 5px solid;
@@ -2961,7 +2961,7 @@ img{
     z-index: -1;
 }
 .contact__guide--form{
-    background-image: url(/img/contact_form.png);
+    background-image: url(/contact_form.png);
     filter: none;
     width: 100%;
 }
@@ -3014,7 +3014,7 @@ img{
     height: 100%;
 }
 .contact__form__button{
-    background-image: url(/img/contact_send.png);
+    background-image: url(/contact_send.png);
     background-size: 100% 100%;
     padding: 20px 150px 40px 100px;
     cursor: pointer;
@@ -3105,12 +3105,12 @@ img{
     filter: grayscale(70%);
 }
 .side-menu__list__item:first-child > .side-menu__list__item__link{
-    background-image: url(/img/side-menu_line.png);
+    background-image: url(/side-menu_line.png);
     padding-top: 35px;
     letter-spacing: 0.2em;
 }
 .side-menu__list__item:last-child > .side-menu__list__item__link{
-    background-image: url(/img/side-menu_form.png);
+    background-image: url(/side-menu_form.png);
 }
 .side-menu__list__item__link--line{
     color: #26FF26;
