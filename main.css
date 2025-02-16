@@ -3048,6 +3048,9 @@ img{
         font-size: 4vw;
         padding: 25px 0px 16vw;
     }
+    .contact__form {
+        padding-bottom: 20px;
+    }
     .contact__guide,
     .contact__form{
         width: calc(100% - 30px);
@@ -3056,7 +3059,7 @@ img{
         width: 99%;
     }    
     .contact__form__list {
-        padding: 120px 12px 20px;
+        padding: 100px 12px 5px;
     }
 	
     .contact__form__list__item {
@@ -3064,7 +3067,9 @@ img{
     }
     .contact__form__list__item__title {
         padding: 8px 10px 8px 5px;
-	    font-size: .8rem;
+	font-size: .8rem;
+	border-width: 3px;
+        margin-bottom: 15px;
     }
     .contact__form__button {
         padding: 20px 115px 40px 75px;
@@ -3073,18 +3078,14 @@ img{
         font-size: 1.3rem;
     }
 }
-@media screen and (max-width : 375px) {
+/* @media screen and (max-width : 375px) {
     .contact__form {
         padding-bottom: 20px;
     }
     .contact__form__list {
         padding: 100px 8px 5px;
     }
-    .contact__form__list__item {
-        border-width: 3px;
-        margin-bottom: 15px;
-    }
-}
+} */
 
 /* side-menu */
 
